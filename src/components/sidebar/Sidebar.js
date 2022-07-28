@@ -6,10 +6,10 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
       <div className="sidebar__title">
         <div className="sidebar__img">
           <img src={logo} alt="logo" />
-          <h1>Off Road Fun Finder</h1>
+          {/* <h1>Off Road Fun Finder</h1>*/}
         </div>
         <i
-          className="fa fa-times"
+          className="fa fa-times fa-10x"
           id="sidebarIcon"
           onClick={() => closeSidebar()}
         ></i>

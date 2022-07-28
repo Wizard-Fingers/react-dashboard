@@ -1,12 +1,13 @@
 .navbar {
-    background: #ffffff;
+    background: #265bff;
     grid-area: nav;
-    height: 60px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 30px 0 30px;
-    border-bottom: 1px solid lightgray;
+    padding: 0 10px 0 90px;
+    /* border-bottom: 1px solid white; */
+    /* border-radius:8px; */
 }
 
 .nav_icon {
@@ -14,15 +15,18 @@
 }
 
 .nav_icon > i {
-    font-size: 40px;
+    font-size: 30px;
     color: orange;
+    padding:20px;
+
+
 
 }
 .navbar__left > a {
     margin-right: 30px;
     tex-decoration: none;
-    color: black;
-    font-size: 15px;
+    color: white;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -42,11 +46,11 @@
     text-decoration: none;
 }
 .navbar__right > a > i {
-    color: #a5aaad;
-    font-size:16px;
+    color: white;
+    font-size:19px;
     border-radius: 50px;
-    background: white;
-    box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px white;
+    background: orange;
+    box-shadow: 2px 2px 5px white, -2px -2px 5px white;
     padding: 7px;
 }
 
